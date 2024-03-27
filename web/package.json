@@ -1,0 +1,34 @@
+{
+  "name": "equipment-manager",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview --host 0.0.0.0",
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.6.7",
+    "roboto-fontface": "^0.10.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.2.5",
+    "vue3-easy-data-table": "^1.5.47",
+    "vuetify": "^3.4.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@tsconfig/node17": "^1.0.3",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.0",
+    "pug": "^3.0.2",
+    "sass": "^1.69.3",
+    "sass-loader": "^10.4.1",
+    "typescript": "^4.9.5",
+    "vite": "^2.9.16",
+    "vue-cli-plugin-vuetify": "~2.4.7",
+    "vuetify-loader": "^2.0.0-alpha.0"
+  }
+}
